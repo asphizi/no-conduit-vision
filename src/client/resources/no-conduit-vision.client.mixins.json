@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "io.github.asphizi.no_conduit_vision.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
