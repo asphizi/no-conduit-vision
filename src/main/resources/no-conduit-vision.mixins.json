@@ -2,9 +2,7 @@
 	"required": true,
 	"package": "io.github.asphizi.no_conduit_vision.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
+	"mixins": [],
 	"injectors": {
 		"defaultRequire": 1
 	}

@@ -3,7 +3,7 @@
 	"package": "io.github.asphizi.no_conduit_vision.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"NoConduitVisionClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

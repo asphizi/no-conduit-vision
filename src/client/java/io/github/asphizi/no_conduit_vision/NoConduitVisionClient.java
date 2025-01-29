@@ -7,4 +7,9 @@ public class NoConduitVisionClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
 	}
+
+	public static boolean isConduitVisionEnabled() {
+		// TODO: client-side configuration, such as a config file and a keybind that toggles the effect.
+		return false;
+	}
 }
