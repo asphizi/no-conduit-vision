@@ -3,15 +3,14 @@
 	"id": "no-conduit-vision",
 	"version": "${version}",
 	"name": "No Conduit Vision",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Removes the night vision effect from conduit power",
 	"authors": [
-		"Me!"
+		"asphizi"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/asphizi/no-conduit-vision"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/no-conduit-vision/icon.png",
 	"environment": "*",
 	"entrypoints": {
