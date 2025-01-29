@@ -30,6 +30,17 @@
         default = pkgs.mkShell {
           packages = with pkgs; [ gcc gradle jdk maven ncurses patchelf zlib ];
 
+          LD_LIBRARY_PATH = with pkgs;
+            lib.makeLibraryPath [
+              libGL
+              glfw
+              openal
+              flite
+              libpulseaudio
+              udev
+              xorg.libXcursor
+            ];
+
           shellHook = let
             loadLombok = "-javaagent:${pkgs.lombok}/share/java/lombok.jar";
             prev = "\${JAVA_TOOL_OPTIONS:+ $JAVA_TOOL_OPTIONS}";
