@@ -12,21 +12,14 @@
 	},
 	"license": "MIT",
 	"icon": "assets/no-conduit-vision/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
-		"main": [
-			"io.github.asphizi.no_conduit_vision.NoConduitVision"
-		],
 		"client": [
 			"io.github.asphizi.no_conduit_vision.NoConduitVisionClient"
 		]
 	},
 	"mixins": [
-		"no-conduit-vision.mixins.json",
-		{
-			"config": "no-conduit-vision.client.mixins.json",
-			"environment": "client"
-		}
+		"no-conduit-vision.client.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",
