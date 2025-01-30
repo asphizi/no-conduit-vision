@@ -1,5 +1,6 @@
 package io.github.asphizi.no_conduit_vision;
 
+import io.github.asphizi.no_conduit_vision.NoConduitVisionConfig;
 import net.fabricmc.api.ClientModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +12,7 @@ public class NoConduitVisionClient implements ClientModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final NoConduitVisionConfig CONFIG = NoConduitVisionConfig.createAndLoad();
 
 	@Override
 	public void onInitializeClient() {
@@ -19,7 +21,6 @@ public class NoConduitVisionClient implements ClientModInitializer {
 	}
 
 	public static boolean isConduitVisionEnabled() {
-		// TODO: client-side configuration, such as a config file and a keybind that toggles the effect.
-		return false;
+		return CONFIG.conduitVisionEnabled();
 	}
 }
