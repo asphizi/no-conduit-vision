@@ -1,0 +1,7 @@
+{
+  "text.config.no-conduit-vision.title": "No Conduit Vision Config",
+  "text.config.no-conduit-vision.option.conduitVisionEnabled": "Conduit Vision",
+  "text.config.no-conduit-vision.option.conduitVisionEnabled.tooltip": "Whether or not conduit power gives you night vision while underwater.",
+  "category.no-conduit-vision.no-conduit-vision": "No Conduit Vision",
+  "key.no-conduit-vision.toggle": "Toggle Conduit Vision"
+}
