@@ -1,6 +1,6 @@
 # No Conduit Vision
 
-![Modrinth Downloads](https://img.shields.io/modrinth/dt/AVyVo6om)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/AVyVo6om)](https://modrinth.com/mod/no-conduit-vision)
 
 This Minecraft Fabric mod allows the player to remove or toggle the night vision effect given by conduit power when underwater
 
